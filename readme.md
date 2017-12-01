@@ -22,6 +22,3 @@ npm run azure-publish
 ## Use continuous integration
 
 If you have setup continuous integration, then your bot will automatically deployed when new changes are pushed to the source repository.
-
-
-
