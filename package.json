@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "botbuilder": "^3.8.4",
-    "restify": "^5.0.0"
+    "botbuilder": "^3.12.0",
+    "restify": "^5.0.0",
+    "restify-clients": "^1.5.2",
+    "restify-plugins": "^1.6.0"
   },
   "devDependencies": {
+    "dotenv": "^4.0.0",
     "request": "^2.81.0",
     "zip-folder": "^1.0.0"
   },
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
