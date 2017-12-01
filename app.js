@@ -23,6 +23,8 @@ server.use(restifyBodyParser());
 var connector = new builder.ChatConnector({
     appId: process.env.MicrosoftAppId,
     appPassword: process.env.MicrosoftAppPassword,
+    stateEndpoint: process.env.BotStateEndpoint,
+    openIdMetadata: process.env.BotOpenIdMetadata 
 });
 
 // Listen for messages from users 
